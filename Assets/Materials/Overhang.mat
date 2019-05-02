@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Overhang
+  m_Shader: {fileID: 4800000, guid: 763415e80b2a95b45954abc9ab3d49f2, type: 3}
+  m_ShaderKeywords: _ALPHAPREMULTIPLY_ON _ALPHA_CLIP _BL_ON _BR_ON _COLOR_ADJUST _DIFFUSE_RAMP
+    _SPECULAR _SPHERICAL_HARMONICS _TEXTURE_BLEND _TL_ON _TR_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap:
+    AlphaDepth: False
+    IGNOREPROJECTOR: true
+    RenderType: TransparentCutout
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BlendTex:
+        m_Texture: {fileID: 2800000, guid: e45483e270a314c4bbc6e317771d56ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseRamp:
+        m_Texture: {fileID: 2800000, guid: d20e5329bb2905844a1ae38b80640d3f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonShade:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _BL: 1
+    - _BR: 1
+    - _BlendAmount: 0.788
+    - _Brightness: 0.92
+    - _BumpScale: 1
+    - _Cull: 2
+    - _CustomRenderQueue: 0
+    - _Cutoff: 0.397
+    - _CutoffA: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 10
+    - _EmissionPower: 0.4
+    - _EnableExternalAlpha: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.685
+    - _GlossyReflections: 1
+    - _Hue: 0.171
+    - _Invert: 0
+    - _Metallic: 0.24
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Outline: 0.0176
+    - _Parallax: 0.02
+    - _Radius: 0.1
+    - _RenderQueue: 0
+    - _RimPower: 1.61
+    - _Saturation: 0.81
+    - _ShadowAlphaCutoff: 0.223
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TL: 1
+    - _TR: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
+    - _EmissionColor: {r: 0.1792453, g: 0.1337265, b: 0.09723212, a: 1}
+    - _FixedNormal: {r: 0, g: 0, b: -1, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
+    - _OverlayColor: {r: 0.9433962, g: 0.7609469, b: 0.7609469, a: 0}
+    - _RimColor: {r: 0.1513442, g: 0.18867922, b: 0, a: 1}
+    - _scale: {r: 0, g: 0, b: 0, a: 1}
